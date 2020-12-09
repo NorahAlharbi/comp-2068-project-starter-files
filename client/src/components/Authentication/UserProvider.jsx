@@ -9,7 +9,7 @@ const UserProvider = ({children}) => {
   useEffect(() => {
     const token = localStorage.getItem('token');
     if (token) setUser({ token });
-  }, []);
+  }, [setUser]);
 
   return (
     <UserContext.Provider value={{ user, setUser }}>
