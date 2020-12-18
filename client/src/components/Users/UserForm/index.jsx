@@ -60,9 +60,7 @@ const UserForm = ({ endpoint, preloadData = {}, buttonLabel }) => {
       <Redirect to="/Home"/>
     ) : (
       <Form onSubmit={handleSubmit}>
-        <p>
-          The content is editable under <strong>/src/components/Users/UserForm/index.jsx</strong>
-        </p>
+        
 
         <Form.Group>
           <Form.Label>Name</Form.Label>

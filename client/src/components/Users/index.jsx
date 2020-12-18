@@ -26,14 +26,8 @@ const Users = () => {
   return (
     users ? (
       <>
-        <Header title="Your title for the Header component block">
-          <p>
-            This paragraph will be the value for <strong>&#123;children&#125;</strong> in the <strong>Header component</strong>.
-          </p>
-
-          <p>
-            The header is editable under <strong>/src/components/Users/index.jsx</strong>
-          </p>
+        <Header title="Welcome to your Diary">
+          <p><i>Please register with us!!</i></p>
         </Header>
 
         <Container className="my-3">

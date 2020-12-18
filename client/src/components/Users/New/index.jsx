@@ -7,20 +7,12 @@ import UserForm from '../UserForm';
 const New = () => {
   return (
     <>
-      <Header title="Your title for the Header component block">
-        <p>
-          This paragraph will be the value for <strong>&#123;children&#125;</strong> in the <strong>Header component</strong>.
-        </p>
-
-        <p>
-          The header is editable under <strong>/src/components/Users/New/index.jsx</strong>
-        </p>
+      <Header title="Welcome to Your Diary!!">
+        
       </Header>
       
       <Container>
-        <p>
-          The content is editable under <strong>/src/components/Users/New/index.jsx</strong>
-        </p>
+        <p><i>Please register with us!!</i></p>
 
         <UserForm endpoint="users"/>
       </Container>

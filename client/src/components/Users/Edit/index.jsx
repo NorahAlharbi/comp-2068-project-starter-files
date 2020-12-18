@@ -24,7 +24,7 @@ const Edit = () => {
         
         <Container>
           <p>
-            The content is editable under <strong>/src/components/Users/Edit/index.jsx</strong>
+            
           </p>
 
           <UserForm

@@ -5,25 +5,12 @@ import Header from '../../shared/Header';
 const Home = () => {
   return (
     <>
-      <Header title="Your title for the Header component block">
+      <Header title="Welcome to your diary!!!">
         <p>
-          This paragraph will be the value for <strong>&#123;children&#125;</strong> in the <strong>Header component</strong>.
-        </p>
-
-        <p>
-          The header is editable under <strong>/src/components/Pages/Home/index.jsx</strong>
+        <i>Here you can write your dairy secretly and can access it in any time you want!!!</i>
         </p>
       </Header>
 
-      <Container>
-        <hr/>
-
-        <p>
-          The content is editable under <strong>/src/components/Pages/Home/index.jsx</strong>
-        </p>
-
-        <p>You home page content!</p>
-      </Container>
     </>
   );
 }

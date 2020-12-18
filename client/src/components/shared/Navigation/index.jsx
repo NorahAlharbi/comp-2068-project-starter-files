@@ -4,8 +4,7 @@ import { Link } from 'react-router-dom';
 import { UserContext } from '../../Authentication/UserProvider';
 
 const NavLink = (props) => {
-  // This function allows us to use React Router
-  // with React Bootstrap. Booooya
+ 
     return (
     <Nav.Link
       href={props.href}
@@ -24,7 +23,7 @@ const Navigation = () => {
 
   return (
     <Navbar bg="light" expand="lg">
-      <Navbar.Brand>MOFO Gaming</Navbar.Brand>
+      <Navbar.Brand>Your Diary</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav"/>
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
@@ -32,7 +31,7 @@ const Navigation = () => {
 
           {user && user.token ? (
             <>
-              <Link to="/users" component={NavLink}>Users</Link>
+              <Link to="/diary/new" component={NavLink}>New Diary</Link>
               <Link to="/profile" component={NavLink}>Profile</Link>
               <Link to="/profile/edit" component={NavLink}>Edit Profile</Link>
               <Link to="/logout" component={NavLink}>Logout</Link>

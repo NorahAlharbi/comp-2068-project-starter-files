@@ -33,9 +33,7 @@ exports.create = async (req, res, next) => {
       passwordConfirmation
     } = req.body;
 
-    // The order of the properties matters.
-    // passwordConfirmation MUST come before
-    // password
+    
     const user = await User.register({
       name,
       email,

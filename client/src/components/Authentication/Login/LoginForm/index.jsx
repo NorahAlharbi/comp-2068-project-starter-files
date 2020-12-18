@@ -55,10 +55,6 @@ const LoginForm = () => {
 
   return (
     <Form onSubmit={handleSubmit}>
-      <p>
-        The form is editable under <strong>/src/components/Authentication/Login/LoginForm/index.jsx</strong>
-      </p>
-
       <Form.Group>
         <Form.Label>Email</Form.Label>
         <Form.Control
